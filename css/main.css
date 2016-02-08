@@ -474,9 +474,15 @@ a:focus {
 .navbar-default .navbar-brand {
   margin-right: 50px;
   margin-left: 20px;
-  width: 200px;
+  width: 195px;
   height: 78px;
-  background: url(../images/logo.png) no-repeat 0 50%;
+  padding: 30px 25px;
+  font-size: 22px;
+  line-height: 18px;
+  text-align: center;
+  color: #999;
+  /*background: url(../images/logo.png) no-repeat 0 50%;*/
+
 }
 .navbar-default .navbar-nav > li {
   margin-left: 1px;
@@ -550,7 +556,7 @@ a:focus {
   margin-bottom: 50px;
 }
 .big-gap {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 #footer {
   padding-top: 30px;
